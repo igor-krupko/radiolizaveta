@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0e6fa;
+  color: #1c1c1c;
+}
+
+header {
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.post {
+  border: 2px solid #8a2be2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0;
+}
+
+blockquote p {
+  margin-bottom: 10px;
+}
+
+footer {
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  font-style: normal;
+  color: #8a2be2;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 48px;
+  background: linear-gradient(to right, #ff00ff, #ffff00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #4b0082;
+}
+
+.coffee {
+  background-color: #f7dc6f;
+}
+
+.coffee:hover {
+  background-color: #d4af37;
+}
+
+.shashlyndos {
+  background-color: #f08080;
+}
+
+.shashlyndos:hover {
+  background-color: #cd5c5c;
+}
+
+.minskoemore {
+  background-color: #add8e6;
+}
+
+.minskoemore:hover {
+  background-color: #87ceeb;
+}
+
+.soviet {
+  background-color: #90ee90;
+}
+
+.soviet:hover {
+  background-color: #3cb371;
+}
+
+.news {
+  background-color: #f7dc6f;
+}
+
+.news:hover {
+  background-color: #d4af37;
+}
+
+.taro {
+  background-color: #f08080;
+}
+
+.taro:hover {
+  background-color: #cd5c5c;
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.reactions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.reactions button:hover img {
+  transform: scale(1.2);
+}
+
+.reactions button img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* .laugh img {
+  filter: hue-rotate(90deg);
+}
+
+.cry img {
+  filter: hue-rotate(240deg);
+}
+
+.confused img {
+  filter: hue-rotate(60deg);
+}
+
+.silent img {
+  filter: hue-rotate(0deg);
+} */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
