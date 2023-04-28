@@ -233,7 +233,7 @@ button:hover {
   max-height: 100%;
 }
 
-label {
+.secret {
   font-size: 30px;
   color: #8a2be2;
 }

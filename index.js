@@ -27,8 +27,6 @@ function timeSince(date1, date2) {
   return result;
 }
 
-const timerLabel = document.getElementById('secretTimer');
 const date = new Date();
 const secretDate = new Date(2023,3,28,18,0,0,0);
-timerLabel.innerHTML = timeSince(date, secretDate);
 
